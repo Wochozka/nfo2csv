@@ -1,19 +1,23 @@
 #!/usr/bin/env python3
+
 import os
 import csv
 import xml.etree.ElementTree as ET
 
-COLUMNS = ["OS Name", "Version", "Processor"]
+COLUMNS = ['Název operačního systému',
+           'Verze',
+           'Procesor',
+           'Role platformy']
 
 
-def parse_xml(file_path):
+def parse_nfo(file_path):
     data = {f: "" for f in COLUMNS}
     try:
         tree = ET.parse(file_path)
         root = tree.getroot()
-        for item in root.findall(".//SystemSummary/Item"):
-            name = item.findtext("Name")
-            value = item.findtext("Value")
+        for item in root.findall(".//Category/Data"):
+            name = item.findtext("Položka")
+            value = item.findtext("Hodnota")
             if name in COLUMNS:
                 data[name] = value
     except Exception as e:
@@ -22,20 +26,18 @@ def parse_xml(file_path):
 
 
 def main():
-    # všechny xml soubory v aktuálním adresáři
-    xml_files = [f for f in os.listdir(".") if f.lower().endswith(".xml")]
+    nfo_files = [f for f in os.listdir(".") if f.lower().endswith(".nfo")]
 
     rows = []
-    for f in xml_files:
-        parsed = parse_xml(f)
-        parsed["File"] = f  # přidáme jméno souboru jako referenci
+    for f in nfo_files:
+        parsed = parse_nfo(f)
+        parsed["File"] = f
         rows.append(parsed)
 
     if not rows:
-        print("Nenalezeny žádné XML soubory.")
+        print("Nenalezeny žádné nfo soubory.")
         return
 
-    # CSV sloupce: jméno souboru + vybrané položky
     fieldnames = ["File"] + COLUMNS
     with open("system_info.csv", "w", newline="", encoding="utf-8") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
