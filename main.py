@@ -7,7 +7,9 @@ import xml.etree.ElementTree as ET
 COLUMNS = ['Název operačního systému',
            'Verze',
            'Procesor',
-           'Role platformy']
+           'Role platformy',
+           'Název systému',
+           ]
 
 
 def parse_nfo(file_path):
