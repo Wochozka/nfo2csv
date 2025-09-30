@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SystemInformation>
+  <SystemSummary>
+    <Item>
+      <Name>OS Name</Name>
+      <Value>Microsoft Windows 11 Pro</Value>
+    </Item>
+    <Item>
+      <Name>Version</Name>
+      <Value>10.0.22631 Build 22631</Value>
+    </Item>
+    <Item>
+      <Name>Other OS Description</Name>
+      <Value>Not Available</Value>
+    </Item>
+    <Item>
+      <Name>OS Manufacturer</Name>
+      <Value>Microsoft Corporation</Value>
+    </Item>
+    <Item>
+      <Name>System Name</Name>
+      <Value>DESKTOP-TEST</Value>
+    </Item>
+    <Item>
+      <Name>System Manufacturer</Name>
+      <Value>LENOVO</Value>
+    </Item>
+    <Item>
+      <Name>System Model</Name>
+      <Value>20UHCTO1WW</Value>
+    </Item>
+    <Item>
+      <Name>System Type</Name>
+      <Value>x64-based PC</Value>
+    </Item>
+    <Item>
+      <Name>Processor</Name>
+      <Value>Intel(R) Core(TM) i7-1165G7 @ 2.80GHz, 2803 Mhz, 4 Core(s), 8 Logical Processor(s)</Value>
+    </Item>
+    <Item>
+      <Name>BIOS Version/Date</Name>
+      <Value>LENOVO N2OET63W (1.41 ), 3/5/2024</Value>
+    </Item>
+    <Item>
+      <Name>SMBIOS Version</Name>
+      <Value>3.3</Value>
+    </Item>
+    <Item>
+      <Name>Embedded Controller Version</Name>
+      <Value>1.21</Value>
+    </Item>
+    <Item>
+      <Name>BIOS Mode</Name>
+      <Value>UEFI</Value>
+    </Item>
+    <Item>
+      <Name>BaseBoard Manufacturer</Name>
+      <Value>LENOVO</Value>
+    </Item>
+    <Item>
+      <Name>BaseBoard Product</Name>
+      <Value>20UHCTO1WW</Value>
+    </Item>
+    <Item>
+      <Name>Platform Role</Name>
+      <Value>Mobile</Value>
+    </Item>
+  </SystemSummary>
+  <!-- další sekce: Hardware Resources, Components, Software Environment ... -->
+</SystemInformation>
