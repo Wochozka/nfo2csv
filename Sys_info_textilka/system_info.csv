@@ -1,27 +1,3 @@
-<<<<<<< HEAD
-File,Název operačního systému,Verze,Procesor,Role platformy,Název systému
-Karaskova_J.nfo,,6.1.7600.16385,"Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz, 2201 Mhz, jádra: 2, logické procesory: 4",,205-06
-110_pc.nfo,Microsoft Windows 10 Pro,10.0.19041.1,"Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, 3401 Mhz, jádra: 4, logické procesory: 8",Desktop,110-K506
-408_ntb.nfo,Microsoft Windows 11 Pro,10.0.22621.1,"Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, 3401 Mhz, jádra: 4, logické procesory: 8",Desktop,408-K502
-307_pc.nfo,Microsoft Windows 10 Pro,10.0.19041.1,"AMD Ryzen 5 PRO 2600 Six-Core Processor, 3400 Mhz, jádra: 6, logické procesory: 12",Desktop,DESKTOP-LVKD9NI
-012_VOSTRO_ntb.nfo,Microsoft Windows 10 Pro,10.0.16299.15,"Intel(R) Core(TM) i7-3612QM CPU @ 2.10GHz, 2101 Mhz, jádra: 4, logické procesory: 8",Přenosný počítač,012-10
-209_ntb.nfo,,6.1.7600.16385,"Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz, 2201 Mhz, jádra: 2, logické procesory: 4",,205-09
-319_ntb.nfo,Microsoft Windows 11 Pro for Workstations,10.0.26100.1,"AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx, 2100 Mhz, jádra: 4, logické procesory: 8",Přenosný počítač,LAPTOP-E4JKEEE2
-312_pc.nfo,Microsoft Windows 10 Pro for Workstations,10.0.19041.1,"AMD A10-7800 Radeon R7, 12 Compute Cores 4C+8G, 3500 Mhz, jádra: 2, logické procesory: 4",Desktop,DESKTOP-QPUMPUG
-012_ntb.nfo,Microsoft Windows 11 Pro,10.0.26100.1,"AMD Ryzen 5 4500U with Radeon Graphics, 2375 Mhz, jádra: 6, logické procesory: 6",Přenosný počítač,012-3236
-215_pc.nfo,,,,,
-302_ntb.nfo,Microsoft Windows 10 Pro for Workstations,10.0.19041.1,"AMD A10-7800 Radeon R7, 12 Compute Cores 4C+8G, 3500 Mhz, jádra: 2, logické procesory: 4",Desktop,302-K603
-309_ntb.nfo,Microsoft Windows 10 Home,10.0.19041.1,"AMD A10-7800 Radeon R7, 12 Compute Cores 4C+8G, 3500 Mhz, jádra: 2, logické procesory: 4",Desktop,DESKTOP-LD618DK
-114_pc.nfo,Microsoft Windows 10 Pro,10.0.19041.1,"Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz, 3901 Mhz, jádra: 4, logické procesory: 8",Desktop,DESKTOP-H91CCJI
-102_pc.nfo,Microsoft Windows 11 Pro,10.0.22621.1,"Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, 3401 Mhz, jádra: 4, logické procesory: 8",Desktop,102-K509
-106_pc.nfo,Microsoft Windows 10 Pro N,10.0.19041.1,"Intel(R) Core(TM) i3 CPU         540  @ 3.07GHz, 3067 Mhz, jádra: 2, logické procesory: 4",Desktop,DESKTOP-44V9G9N
-405_pc.nfo,Microsoft Windows 10 Enterprise,10.0.19041.1,"Intel(R) Pentium(R) Gold G5420T CPU @ 3.20GHz, 3192 Mhz, jádra: 2, logické procesory: 4",Desktop,DESKTOP-43FKF0E
-203_ntb.nfo,Microsoft Windows 11 Pro for Workstations,10.0.26100.1,"Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, 1800 Mhz, jádra: 4, logické procesory: 8",Přenosný počítač,203-2890
-314_pc.nfo,Microsoft Windows 11 Pro,10.0.26100.1,"13th Gen Intel(R) Core(TM) i5-13420H, 2100 Mhz, jádra: 8, logické procesory: 12",Desktop,314-3779
-415_pc.nfo,,,,,
-319_pc.nfo,Microsoft Windows 10 Pro,10.0.19041.1,"AMD Ryzen 5 PRO 2600 Six-Core Processor, 3400 Mhz, jádra: 6, logické procesory: 12",Desktop,DESKTOP-2PE0726
-205_ntb.nfo,Microsoft Windows 11 Pro,10.0.22621.1,"Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz, 2400 Mhz, jádra: 4, logické procesory: 8",Přenosný počítač,205-3135
-=======
 File,Název operačního systému,Verze,Procesor,Role platformy,Název systému,Podpora šifrování zařízení
 203_ntb.nfo,Microsoft Windows 11 Pro for Workstations,10.0.26100.1,"Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, 1800 Mhz, jádra: 4, logické procesory: 8",Přenosný počítač,203-2890,
 319_pc.nfo,Microsoft Windows 10 Pro,10.0.19041.1,"AMD Ryzen 5 PRO 2600 Six-Core Processor, 3400 Mhz, jádra: 6, logické procesory: 12",Desktop,DESKTOP-2PE0726,Pro zobrazení je nutné zvýšení úrovně oprávnění
@@ -34,6 +10,7 @@ File,Název operačního systému,Verze,Procesor,Role platformy,Název systému,
 309_ntb.nfo,Microsoft Windows 10 Home,10.0.19041.1,"AMD A10-7800 Radeon R7, 12 Compute Cores 4C+8G, 3500 Mhz, jádra: 2, logické procesory: 4",Desktop,DESKTOP-LD618DK,"Důvody selhání automatického šifrování zařízení: TPM není použitelné, Vazba PCR7 není podporována, Testovací rozhraní bezpečnosti hardwaru selhalo a zařízení není v moderním úsporném režimu., Byly nalezeny nedovolené sběrnice/zařízení s podporou DMA, TPM není použitelné"
 405_pc.nfo,Microsoft Windows 10 Enterprise,10.0.19041.1,"Intel(R) Pentium(R) Gold G5420T CPU @ 3.20GHz, 3192 Mhz, jádra: 2, logické procesory: 4",Desktop,DESKTOP-43FKF0E,Pro zobrazení je nutné zvýšení úrovně oprávnění
 215_pc.nfo,,,,,,
+112_pc.nfo,Microsoft Windows 11 Pro,10.0.26100.1,"Intel(R) Core(TM) Ultra 7 265F, 2400 Mhz, jádra: 20, logické procesory: 20",Desktop,112-3822,
 302_ntb.nfo,Microsoft Windows 10 Pro for Workstations,10.0.19041.1,"AMD A10-7800 Radeon R7, 12 Compute Cores 4C+8G, 3500 Mhz, jádra: 2, logické procesory: 4",Desktop,302-K603,"Důvody selhání automatického šifrování zařízení: TPM není použitelné, Vazba PCR7 není podporována, Testovací rozhraní bezpečnosti hardwaru selhalo a zařízení není v moderním úsporném režimu., Byly nalezeny nedovolené sběrnice/zařízení s podporou DMA, Zakázáno zásadami, TPM není použitelné"
 209_ntb.nfo,,6.1.7600.16385,"Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz, 2201 Mhz, jádra: 2, logické procesory: 4",,205-09,
 408_ntb.nfo,Microsoft Windows 11 Pro,10.0.22621.1,"Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, 3401 Mhz, jádra: 4, logické procesory: 8",Desktop,408-K502,"Důvody selhání automatického šifrování zařízení: TPM není použitelné, Vazba PCR7 není podporována, Testovací rozhraní bezpečnosti hardwaru selhalo a zařízení není v moderním úsporném režimu., Byly nalezeny nedovolené sběrnice/zařízení s podporou DMA, TPM není použitelné"
@@ -44,4 +21,3 @@ File,Název operačního systému,Verze,Procesor,Role platformy,Název systému,
 319_ntb.nfo,Microsoft Windows 11 Pro for Workstations,10.0.26100.1,"AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx, 2100 Mhz, jádra: 4, logické procesory: 8",Přenosný počítač,LAPTOP-E4JKEEE2,
 Karaskova_J.nfo,,6.1.7600.16385,"Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz, 2201 Mhz, jádra: 2, logické procesory: 4",,205-06,
 012_VOSTRO_ntb.nfo,Microsoft Windows 10 Pro,10.0.16299.15,"Intel(R) Core(TM) i7-3612QM CPU @ 2.10GHz, 2101 Mhz, jádra: 4, logické procesory: 8",Přenosný počítač,012-10,"Důvody selhání automatického šifrování zařízení: TPM není použitelné, Vazba PCR7 není podporována, Testovací rozhraní bezpečnosti hardwaru selhalo a zařízení není typu InstantGo, Byly nalezeny nedovolené sběrnice/zařízení s podporou DMA, TPM není použitelné"
->>>>>>> c16b2b35106121bfff4216570aa5c72f175f8c02
