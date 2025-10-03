@@ -9,6 +9,7 @@ COLUMNS = ['Název operačního systému',
            'Procesor',
            'Role platformy',
            'Název systému',
+           'Podpora šifrování zařízení', 
            ]
 
 
